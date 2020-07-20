@@ -1,0 +1,4 @@
+las caracteristicas de las imagenes 
+
+tamaño: 1080 x 1440 px
+sin contorno o marco
