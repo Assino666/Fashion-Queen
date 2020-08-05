@@ -42,12 +42,12 @@
 	70% {margin-left:-200%;}
 	100% {margin-left:-200%;}
 }
-@media (max-width: 880px) {
+@media (max-width: 800px) {
 	.slider
 {
 	width:100%;
-	height: 50%;
-    margin-left:3%;
+	height: auto;
+    margin-left:0%;
     margin-top: 0%;
 	
 	overflow:hidden;
@@ -75,4 +75,7 @@
 	
 }
 
+}
+@media (max-width: 880px) {
+	
 }

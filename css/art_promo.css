@@ -2,7 +2,7 @@
 /* CSS Document */
 section{
 	
-	width: 85%;
+	width: 90%;
 	margin: auto;
 	display: block;
 }
@@ -36,23 +36,23 @@ article p{
 	text-align: center;
 
 }
-@media (max-width: 880px) {
+@media (max-width: 800px) {
 
 	article{
 	float: left;
 	margin: 10px;
-	width: 45%;
+	width: 90%;
 	
 
     }article h1{
-	font-size: 15PX;
+	font-size: 20PX;
 	width: 80%;
 	margin: auto;
 	display: block;
 	text-align: center;
 }
 	article p{
-	font-size: 10px;
+	font-size: 15px;
 	width: 90%;
 	margin: 10px;
 	display: block;
