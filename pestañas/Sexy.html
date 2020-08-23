@@ -12,6 +12,18 @@
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 		<link rel="stylesheet" href="../css/custom.css"/>
 		<link rel="stylesheet" href="../css/mapa.css"/>
+		<script>
+      function mostrar(id)
+      {
+         var objeto=document.getElementById(id)
+            objeto.style.display="block";
+      }
+      function ocultar(id)
+      {
+         var objeto=document.getElementById(id)
+            objeto.style.display="none";
+      }
+   </script>
 
 	</head>
 	<body>
@@ -67,8 +79,14 @@
 			  
 			  <div class="col-md-4">
               <div class="card mb-4 box-shadow">
-                <img class="card-img-top" src="../img/Mujer/Sexy/2.0.png"  alt="Card image cap">
+                <img class="card-img-top" src="../img/Mujer/Sexy/2.0.png" id="contenido1" alt="Card image cap">
+					   <img   class="card-img-top oculto"  src="../img/Mujer/Sexy/2.1.png"  id="contenido2" alt="Card image cap">	  
+					
                 <div class="card-body">
+					 <div class="col text-center">
+					<input type="button" class="btn btn-sm btn-outline-primary" onclick="mostrar('contenido1') & ocultar('contenido2')" value="Frontal">
+					   <input type="button" class="btn btn-sm btn-outline-primary" onclick="mostrar('contenido2') & ocultar('contenido1')" value="Posterior">
+					</div>
                   <p class="card-text">Lenceria de Mucama sexy, de dos piezas. incluye tanga.</p><p>Tallas M </p>
                   <div class="d-flex justify-content-between align-items-center">
                     <div class="btn-group">
