@@ -12,6 +12,18 @@
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 		<link rel="stylesheet" href="../css/custom.css"/>
 		<link rel="stylesheet" href="../css/mapa.css"/>
+		
+		<script>
+      function mostrar(id)
+      {
+         var objeto=document.getElementById(id)
+            objeto.style.display="block";
+      }
+      function ocultar(id)
+      {
+         var objeto=document.getElementById(id)
+            objeto.style.display="none";
+      }</script>
 
 	</head>
 	<body>
@@ -98,12 +110,21 @@
 			  
 			  <div class="col-md-4">
               <div class="card mb-4 box-shadow">
-                <img class="card-img-top" src="../img/Mujer/cordinados/33.png"  alt="Card image cap">
-                <div class="card-body">
+                	<img class="card-img-top" src="../img/Mujer/cordinados/33.Mamey.png" id="33.Mamey" alt="Card image cap">						
+					<img   class="card-img-top oculto"  src="../img/Mujer/cordinados/33.Negro.png"  id="33.Negro" alt="Card image cap">
+					<img   class="card-img-top oculto"  src="../img/Mujer/cordinados/33.Rojo.png"  id="33.Rojo" alt="Card image cap">
+					<img   class="card-img-top oculto"  src="../img/Mujer/cordinados/33.Rosa.png"  id="33.Rosa" alt="Card image cap">
+				<div class="card-body">
+					<div class="col text-center">
+						<input type="button" class="btn btn-sm btn-primary btnMamey" onclick="mostrar('33.Mamey') & ocultar('33.Negro') & ocultar('33.Rojo') & ocultar('33.Rosa')" value="">
+						<input type="button" class="btn btn-sm btn-outline-primary btnNegro" onclick="mostrar('33.Negro') & ocultar('33.Mamey') & ocultar('33.Rojo') & ocultar('33.Rosa')" value="">
+						<input type="button" class="btn btn-sm btn-primary btnRojo" onclick="mostrar('33.Rojo') & ocultar('33.Mamey') & ocultar('33.Negro') & ocultar('33.Rosa')" value="">
+						<input type="button" class="btn btn-sm btn-primary btnRosa" onclick="mostrar('33.Rosa') & ocultar('33.Mamey') & ocultar('33.Negro') & ocultar('33.Rojo')" value="">
+					</div> 
                   <p class="card-text">Cordinado, con figuras de flor tipo encaje, suave tela. Colores, Rojo, Rosa, Beige,.</p><p>Tallas </p>
                   <div class="d-flex justify-content-between align-items-center">
                     <div class="btn-group">
-                      <button type="button" class="btn btn-sm btn-outline-secondary">$250</button>
+                      <button type="button" class="btn btn-sm btn-outline-secondary">$220</button>
                       </div>
                     <small class="text-muted">id Co33</small>
                   </div>
@@ -112,8 +133,14 @@
             </div>
 			  <div class="col-md-4">
               <div class="card mb-4 box-shadow">
-                <img class="card-img-top" src="../img/Mujer/cordinados/33.0.png"  alt="Card image cap">
-                <div class="card-body">
+              		 <img class="card-img-top" src="../img/Mujer/cordinados/34.Azul.png" id="34.Azul" alt="Card image cap">										<img   class="card-img-top oculto"  src="../img/Mujer/cordinados/34.Cafe.png"  id="34.Cafe" alt="Card image cap">
+					
+				<div class="card-body">
+					<div class="col text-center">
+						<input type="button" class="btn btn-sm btn-primary btnAzul" onclick="mostrar('34.Azul') & ocultar('34.Cafe')"  value="">
+						<input type="button" class="btn btn-sm btn-outline-primary btnMamey" onclick="mostrar('34.Cafe') & ocultar('34.Azul')" value="">
+						
+					</div> 
                   <p class="card-text">Cordinado, con figuras de flor tipo encaje, suave tela. Colores, Rojo, Rosa, Lila.</p><p>Tallas CH M G</p>
                   <div class="d-flex justify-content-between align-items-center">
                     <div class="btn-group">
@@ -155,7 +182,35 @@
                 </div>
               </div>
             </div>
+			  <div class="col-md-4">
+              <div class="card mb-4 box-shadow">
+                <img class="card-img-top" src="../img/Mujer/cordinados/16.png"  alt="Card image cap">
+                <div class="card-body">
+                  <p class="card-text">Cordinado para niña  de 12 a 14 años</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-sm btn-outline-secondary">$120</button>
+                      </div>
+                    <small class="text-muted">id Co16</small>
+                  </div>
+                </div>
+              </div>
+            </div>
 			  
+			  <div class="col-md-4">
+              <div class="card mb-4 box-shadow">
+                <img class="card-img-top" src="../img/Mujer/cordinados/17.png"  alt="Card image cap">
+                <div class="card-body">
+                  <p class="card-text">Cordinado para niña  de 12 a 14 años</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-sm btn-outline-secondary">$120</button>
+                      </div>
+                    <small class="text-muted">id Co17</small>
+                  </div>
+                </div>
+              </div>
+            </div>
 			  
 			  <div class="col-md-4">
               <div class="card mb-4 box-shadow">
@@ -272,8 +327,14 @@
 			  
 			  <div class="col-md-4">
               <div class="card mb-4 box-shadow">
-                <img class="card-img-top" src="../img/Mujer/cordinados/18.png"  alt="Card image cap">
+                <img class="card-img-top" src="../img/Mujer/cordinados/18.0.png" id="Co18.0" alt="Card image cap">
+					   <img   class="card-img-top oculto"  src="../img/Mujer/cordinados/18.1.png"  id="Co18.1" alt="Card image cap">	  
+					
                 <div class="card-body">
+					 <div class="col text-center">
+					<input type="button" class="btn btn-sm btn-outline-primary" onclick="mostrar('Co18.0') & ocultar('Co18.1')" value=".">
+					   <input type="button" class="btn btn-sm btn-outline-primary" onclick="mostrar('Co18.1') & ocultar('Co18.0')" value=".">
+					</div>
                   <p class="card-text">Cordinado, tipo piel en color Vino y en Negro</p><p>Tallas 36-40</p>
                   <div class="d-flex justify-content-between align-items-center">
                     <div class="btn-group">
@@ -304,20 +365,7 @@
 			  
 			  
 			  
-			  <div class="col-md-4">
-              <div class="card mb-4 box-shadow">
-                <img class="card-img-top" src="../img/Mujer/cordinados/21.png"  alt="Card image cap">
-                <div class="card-body">
-                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p><p>Tallas </p>
-                  <div class="d-flex justify-content-between align-items-center">
-                    <div class="btn-group">
-                      <button type="button" class="btn btn-sm btn-outline-secondary">$175</button>
-                      </div>
-                    <small class="text-muted">id Co21</small>
-                  </div>
-                </div>
-              </div>
-            </div>
+			  
 			  
 			  <div class="col-md-4">
               <div class="card mb-4 box-shadow">
@@ -367,8 +415,14 @@
 			  
 			  <div class="col-md-4">
               <div class="card mb-4 box-shadow">
-                <img class="card-img-top" src="../img/Mujer/cordinados/25.0.png"  alt="Card image cap">
+                <img class="card-img-top" src="../img/Mujer/cordinados/25.0.png" id="Co25.0" alt="Card image cap">
+					   <img   class="card-img-top oculto"  src="../img/Mujer/cordinados/25.1.png"  id="Co25.1" alt="Card image cap">	  
+					
                 <div class="card-body">
+					 <div class="col text-center">
+					<input type="button" class="btn btn-sm btn-outline-primary" onclick="mostrar('Co25.0') & ocultar('Co25.1')" value="Frente">
+					   <input type="button" class="btn btn-sm btn-outline-primary" onclick="mostrar('Co25.1') & ocultar('Co25.0')" value="Posterior">
+					</div>
                   <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p><p>Tallas CH M G </p>
                   <div class="d-flex justify-content-between align-items-center">
                     <div class="btn-group">
@@ -396,20 +450,7 @@
               </div>
             </div>
 			  
-			  <div class="col-md-4">
-              <div class="card mb-4 box-shadow">
-                <img class="card-img-top" src="../img/Mujer/cordinados/27.png"  alt="Card image cap">
-                <div class="card-body">
-                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p><p>Tallas </p>
-                  <div class="d-flex justify-content-between align-items-center">
-                    <div class="btn-group">
-                      <button type="button" class="btn btn-sm btn-outline-secondary">$290</button>
-                      </div>
-                    <small class="text-muted">id Co27</small>
-                  </div>
-                </div>
-              </div>
-            </div>
+			  
 			  
 			  <div class="col-md-4">
               <div class="card mb-4 box-shadow">

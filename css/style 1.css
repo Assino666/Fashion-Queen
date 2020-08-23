@@ -118,6 +118,15 @@ h2{
 * {
   font-family: Open Sans;
 }
+.btnAzul {background-color:#07F9FD;}
+.btnAzulRey {background-color:#0704F3;}
+.btnAma {background-color:#D5EF17;}
+.btnRojo {background-color:#FD0509;}
+.btnRosa {background-color:#FB78F6;}
+.btnMamey {background-color:#FDA172;}
+.btnOro{background-color:#9A842A;}
+.btnVerde{background-color:#1E9706;}
+.btnNegro {background-color:#000000;}
 .oculto {display:none;}
 
 

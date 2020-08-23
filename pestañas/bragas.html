@@ -64,12 +64,19 @@
 			  
 			   <div class="col-md-4">
               <div class="card mb-4 box-shadow">
-                <img class="card-img-top" src="../img/Mujer/bragas/0.png"  alt="Card image cap">
+					<img class="card-img-top" src="../img/Mujer/bragas/0.d.png" id="0.d" alt="Card image cap">
+					<img   class="card-img-top oculto"  src="../img/Mujer/bragas/0.a.png"  id="0.a" alt="Card image cap">	  
+					<img   class="card-img-top oculto"  src="../img/Mujer/bragas/0.r.png"  id="0.r" alt="Card image cap">
                 <div class="card-body">
-                  <p class="card-text">Calzon tipo cachetonero, Con encaje suave, Colores: Escarlata, Rosa, Blanco y Negro</p>
+					<div class="col text-center">
+					<input type="button" class="btn btn-sm btn-primary btnOro" onclick="mostrar('0.d') & ocultar('0.a')& ocultar('0.r')" value="">
+					   <input type="button" class="btn btn-sm btn-outline-primary btnAzulRey" onclick="mostrar('0.a') & ocultar('0.d') & ocultar('0.r')" value="">
+						 <input type="button" class="btn btn-sm btn-primary btnMamey" onclick="mostrar('0.r') & ocultar('0.d') & ocultar('0.a')" value="">
+						 </div>
+                  <p class="card-text">Calzon tipo bikini , Con encaje suave.</p>
                   <div class="d-flex justify-content-between align-items-center">
                     <div class="btn-group">
-                      <button type="button" class="btn btn-sm btn-outline-secondary">$65</button>
+                      <button type="button" class="btn btn-sm btn-outline-secondary">$55</button>
                       
                     </div>
                     <small class="text-muted">id Br0</small>
@@ -385,8 +392,14 @@
             </div>
 			  <div class="col-md-4">
               <div class="card mb-4 box-shadow">
-                <img class="card-img-top" src="../img/Mujer/bragas/17.jpg"  alt="Card image cap">
+                <img class="card-img-top" src="../img/Mujer/bragas/17.0.jpg" id="br17" alt="Card image cap">
+					   <img   class="card-img-top oculto"  src="../img/Mujer/bragas/17.1.jpg"  id="br17.1" alt="Card image cap">	  
+					
                 <div class="card-body">
+					 <div class="col text-center">
+					<input type="button" class="btn btn-sm btn-outline-primary" onclick="mostrar('br17') & ocultar('br17.1')" value="Frontal">
+					   <input type="button" class="btn btn-sm btn-outline-primary" onclick="mostrar('br17.1') & ocultar('br17')" value="Posterior">
+						 </div>
                   <p class="card-text">Tanga con estampado y elastico ancho, Colores varios.</p><p>Talla CH M G</p>
                   <div class="d-flex justify-content-between align-items-center">
                     <div class="btn-group">
